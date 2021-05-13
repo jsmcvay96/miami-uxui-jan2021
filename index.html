@@ -9,13 +9,23 @@
     <meta name="keywords" content="UXUI, Ironhack, Design Principals">
     <meta name="author" content="Jade McVay">
     <title>Jade's Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        /* div {
+            border: 1px red solid;
+        } */
+    </style>
 </head>
 
 <body>
     <!-- Header - start -->
     <header>
-        <img src="" alt="Logo of Jade"> Logo
-        search
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Logo">
+
+        <form action="#">
+            Search <input type="search">
+            <input type="submit" value="Go">
+        </form>
         <nav>
             About
             Products
@@ -26,7 +36,7 @@
     <!-- Header - end -->
 
     <!-- Hero - start -->
-    <section>
+    <section id="hero">
         <h1>Heading 1</h1>
         <h3>Heading 3</h3>
         Call to Action
@@ -37,31 +47,31 @@
     <section>
 
         <!-- Card 1 - start -->
-        <div>
-            <img src="" alt="">
+        <div class="card">
             <h3>Heading 3</h3>
             <p>Paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/ironhack-students3.jpg" alt="" class="img-card">
+            <img src="img/avatar_01.png" alt="">
             <h5>author name</h5>
         </div>
         <!-- Card 1 - end -->
         
         <!-- Card 2 - start -->
-        <div>
-            <img src="" alt="">
+        <div class="card">
             <h3>Heading 3</h3>
             <p>Paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/ironhack-students4.webp" alt="" class="img-card">
+            <img src="img/avatar_02.png" alt="">
             <h5>author name</h5>
         </div>
         <!-- Card 2 - end -->
         
         <!-- Card 3 - start -->
-        <div>
-            <img src="" alt="">
+        <div class="card">
             <h3>Heading 3</h3>
             <p>Paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/ironhack-students5.webp" alt="" class="img-card">
+            <img src="img/avatar_03.png" alt="">
             <h5>author name</h5>
         </div>
         <!-- Card 3 - end -->
@@ -84,7 +94,7 @@
         <section>
             <!-- feature 1 starts here -->
                 <div>
-                    <img src="" alt="">
+                    <img src="/img/picture-01.jpg" alt="" class="img-feat">
                     <h2>header 2</h2>
                     <p>description</p>
                 </div>
@@ -92,7 +102,7 @@
             
             <!-- feature 2 starts here -->
                 <div>
-                    <img src="" alt="">
+                    <img src="/img/picture-02.jpg" alt="" class="img-feat">
                     <h2>header 2</h2>
                     <p>description</p>
                 </div>
@@ -100,7 +110,7 @@
             
             <!-- feature 3 starts here -->
                 <div>
-                    <img src="" alt="">
+                    <img src="/img/picture-03.jpg" alt="" class="img-feat">
                     <h2>header 2</h2>
                     <p>description</p>
                 </div>
@@ -119,11 +129,28 @@
             </div>
 
             <div>
-                title contact us
-                name
-                email
-                message
-                button
+                <form action="#">
+                    <label for="name">Name</label>
+                    <br>
+                    <input id="name" type="text" placeholder="What's your name?">
+                    
+                    <br><br>
+
+                    <label for="email">Email</label>
+                    <br>
+                    <input id="email" type="email" placeholder="What's your email?">
+
+                    <br><br>
+                    
+                    <label for="Message">Message</label>
+                    <br>
+                    <textarea id="Message" rows="6" cols="50" placeholder="Write a nice message here"></textarea>
+
+                    <br><br>
+
+                    <input type="submit" value="Send">
+                </form>
+                
             </div>
 
         </section>
