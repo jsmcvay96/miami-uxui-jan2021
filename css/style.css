@@ -1,3 +1,39 @@
+* {
+     font-family: 'Exo 2', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Krona One', sans-serif;  
+}
+
+h1 {
+     font-size: 4.209rem;  
+}
+
+h2 {
+     font-size: 3.052rem; 
+}
+
+h3 {
+     font-size: 2.441rem;
+}
+
+h4 { 
+     font-size: 1.953rem;
+}
+
+h5 {
+     font-size: 1.563rem; 
+}
+
+h6 {
+     font-size: 1.25rem; 
+}
+
+p {
+    color: #333;
+}
+
 
 div {
     border: 1px blue solid;
@@ -8,9 +44,73 @@ section {
     padding: 80px 40px;
 }
 
+header {
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px;
+}
+
 img {
     /* width: 100%; */
 }
+
+/* Links */
+
+a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+    padding-right: 16px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:active{
+    color: coral;
+}
+
+/* Links End */
+
+/* CTA Button start */
+
+a.cta-button:link, a.cta-button:visited {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px 24px;
+    color: black;
+}
+
+a.cta-button:hover {
+    background-color: blue;
+    color:white;
+}
+
+a.cta-button:active {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* CV Download Button */
+
+a.cv-button:link, a.cv-button:visited {
+    background-color: blue;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: white;
+}
+
+a.cv-button:hover {
+    background-color: white;
+    color:blue;
+}
+
+a.cv-button:active {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* CV Download Button End */
 
 .card {
     width: 250px;
@@ -31,9 +131,29 @@ img {
     width: 250px;
 }
 
+.icons {
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+}
+
+.author-card {
+    align-items: center;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+
 #hero {
     background-image: url('/img/ironhack-students.jpg');
     background-size: cover;
-    height: 48vh;
+    height: 56vh;
     text-align: center;
+    color: white;
 }
