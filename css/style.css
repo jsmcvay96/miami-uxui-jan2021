@@ -2,8 +2,13 @@
      font-family: 'Exo 2', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Krona One', sans-serif;  
+    font-family: 'Krona One', sans-serif;
+    margin: 10px 0px;  
 }
 
 h1 {
@@ -74,6 +79,10 @@ a:active{
 
 /* CTA Button start */
 
+#hero div{
+    margin-top: 48px;
+}
+
 a.cta-button:link, a.cta-button:visited {
     background-color: white;
     border-radius: 8px;
@@ -112,9 +121,17 @@ a.cv-button:active {
 
 /* CV Download Button End */
 
+#articles {
+    justify-content: space-between;
+}
+
 .card {
     width: 250px;
-    
+    padding: ;
+}
+
+.card h5{
+    font: center;
 }
 
 .img-card {
@@ -139,6 +156,7 @@ a.cv-button:active {
     display: flex;
 }
 
+
 .author-card {
     align-items: center;
 }
@@ -157,3 +175,26 @@ a.cv-button:active {
     text-align: center;
     color: white;
 }
+
+#contact {
+    justify-content: space-around;
+    background-color: blue;
+    margin: 40px 0px 0px 0px;
+    color: white;
+}
+
+#contact p{
+    color: white;
+}
+
+#footer {
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+
+
+
+

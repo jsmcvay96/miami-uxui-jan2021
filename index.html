@@ -30,27 +30,42 @@
 <body>
     <!-- Header - start -->
     <header class='container'>
-        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Logo">
+        <div>
+            <a href="#" target="_blank">
+                <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Logo" >
+            </a>
+        </div>
 
-        <form action="#">
-            <input type="search">
-            <input type="submit" value="Go">
-        </form>
-        <nav>
-            <a href="#">About Us</a>
-            <a href="#">Products</a>
-            <a href="#">Testimonials</a>
-            <a href="#contact">Contact</a>
-            <a href="#" class="cv-button"><i class="ri-file-download-line"></i>Download</a>
-        </nav>
+        <div>
+            <form action="#">
+                <input type="search">
+                <input type="submit" value="Go">
+            </form>
+        </div>
+
+        <div>
+            <nav>
+                <a href="#">About Us</a>
+                <a href="#">Products</a>
+                <a href="#">Testimonials</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="cv-button"><i class="ri-file-download-line"></i>Download</a>
+            </nav>
+        </div>
     </header>
     <!-- Header - end -->
 
     <!-- Hero - start -->
     <section id="hero">
-        <h1>The Best Bootcamp In The World!</h1>
-        <h3>Launch Your Career!</h3>
-        <a href='#' class='cta-button'>Learn More</a>
+
+            <div>
+                <h1>The Best Bootcamp In The World!</h1>
+                <h3>Launch Your Career!</h3>
+            </div>
+
+            <div>
+                <a href='#' class='cta-button'>Learn More</a>
+            </div>
     </section>
     <!-- Hero end -->
 
@@ -59,8 +74,7 @@
 
         <!-- Card 1 - start -->
         <div class="card">
-            <h5>Heading 5</h5>
-            <p>Paragraph</p>
+            <h5>Work Spaces</h5>
             <div>
                 <img src="img/ironhack-students3.jpg" alt="" class="img-card">
                 <div class="container author-card">
@@ -68,13 +82,13 @@
                     <p>author name</p>
                 </div>
             </div>
+            <p>Our workspaces are super cool, you'll love working here!</p>
         </div>
         <!-- Card 1 - end -->
         
         <!-- Card 2 - start -->
         <div class="card">
-            <h5>Heading 5</h5>
-            <p>Paragraph</p>
+            <h5>Rooftop Party</h5>
             <div>
                 <img src="img/ironhack-students4.webp" alt="" class="img-card">
                 <div class="container author-card">
@@ -82,21 +96,35 @@
                     <p>author name</p>
                 </div>
             </div>
+            <p>We have an awesome rooftop that students love to hang out on after class!</p>
         </div>
         <!-- Card 2 - end -->
         
         <!-- Card 3 - start -->
         <div class="card">
-            <h5>Heading 5</h5>
-                <p>Paragraph</p>
+            <h5>Amazing Architecture</h5>
                 <img src="img/ironhack-students5.webp" alt="" class="img-card">
                 <div class="container author-card">
                     <img src="img/avatar_03.png" alt="" class="author-image">
                     <p>author name</p>
                 </div>
+                <p>Our building was built by world class leader Mr. Architect</p>
             </div>
         </div>
         <!-- Card 3 - end -->
+
+        <!-- Card 4 - start -->
+        <div class="card">
+            <h5>360 Views</h5>
+                <img src="img/ironhack-students5.webp" alt="" class="img-card">
+                <div class="container author-card">
+                    <img src="img/avatar_03.png" alt="" class="author-image">
+                    <p>author name</p>
+                </div>
+                <p>High end glass floor to ceiling walls provide a 360 view of the entire city of Miami!</p>
+            </div>
+        </div>
+        <!-- Card 4 - end -->
 
     </section>
 
@@ -118,28 +146,34 @@
     <!-- Features - start -->
 
 
-        <section>
+        <section id="features">
             <!-- feature 1 starts here -->
-                <div>
+                <div class="container">
                     <img src="/img/picture-01.jpg" alt="" class="img-feat">
-                    <h2>header 2</h2>
-                    <p>description</p>
+                    <div>
+                        <h5>header 5</h5>
+                        <p>description</p>
+                    </div>
                 </div>
             <!-- feature 1 ends here -->
             
             <!-- feature 2 starts here -->
-                <div>
+                <div class="container">
                     <img src="/img/picture-02.jpg" alt="" class="img-feat">
-                    <h2>header 2</h2>
-                    <p>description</p>
+                    <div>
+                        <h5>header 5</h5>
+                        <p>description</p>
+                    </div>
                 </div>
             <!-- feature 2 ends here -->
             
             <!-- feature 3 starts here -->
-                <div>
+                <div class="container">
                     <img src="/img/picture-03.jpg" alt="" class="img-feat">
-                    <h2>header 2</h2>
-                    <p>description</p>
+                    <div>
+                        <h5>header 5</h5>
+                        <p>description</p>
+                    </div>
                 </div>
             <!-- feature 3 ends here -->
 
@@ -148,14 +182,15 @@
     <!-- Features - end -->
 
     <!-- Contact - start -->
-        <section id='contact'>
+        <section id='contact' class="container">
 
-            <div>
+            <div class="left">
                 <h3>Contact Us</h3>
-                <p>Address</p>
+                <h5>Address</h5>
+                <p>123 the best lane ever Miami, FL</p>
             </div>
 
-            <div>
+            <div class="right">
                 <form action="#">
                     <label for="name">Name</label>
                     <br>
@@ -186,10 +221,10 @@
 
 
     <!-- Footer - start -->
-        <footer>
+        <footer id="footer" class="container">
 
             <!-- menu start -->
-            <div>
+            <div class="footer-links">
                 <a href="#">About Us</a>
                 <a href="#">Products</a>
                 <a href="#">Testimonials</a>
@@ -197,8 +232,8 @@
             <!-- menu end -->
             
             <!-- Social Media - start -->
-            <div>
-                <h4>Social Media/</h4>
+            <div id="social-mnedia" class="container">
+                <p>Social Media</p>
                 <div class= 'icons'>
                     <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-box-line"></i></a>
                     <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-line"></i></a>
