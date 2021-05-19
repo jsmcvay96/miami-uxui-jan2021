@@ -55,8 +55,8 @@ header {
     padding: 36px;
 }
 
-img {
-    /* width: 100%; */
+img{
+    width: 100%;
 }
 
 /* Links */
@@ -127,7 +127,6 @@ a.cv-button:active {
 
 .card {
     width: 250px;
-    padding: ;
 }
 
 .card h5{
